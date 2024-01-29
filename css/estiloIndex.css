@@ -1,0 +1,43 @@
+body {
+    background-color:azure;
+
+}
+#idContenedor{
+ border: 1px solid black;
+ margin:  0px auto;
+ padding: 0px auto;
+ width: 90%;
+ height: 100px;
+}
+#idEncabezado{
+    margin: -20px auto;
+    padding: 0px auto;
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/Encabezado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#idMenu{
+ 
+    margin: 5px auto;
+    padding: 0px auto;
+    width: 100%;
+    height: 100px;
+
+}
+#idContenidoIndex{
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 100%;
+    height: 400px;
+}
+#idPieIndex{
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/Pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

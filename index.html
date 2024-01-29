@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estiloIndex.css">
+  <link rel="stylesheet" href="css/estiloMenu.css">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/icon-192x192.png">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="bg-dark text-white">
+      <img src="img/ReacEncabezado.jpg" width="20%" height="20%" alt="">
+      <h1>Mi paguina web && App</h1>
+    </header>
+   
+    <nav id="idMenu">
+      <ul class="topnav">
+          <li>
+              <a class="active" href="paguinas/inicio.html" target="iframeContenido">Inicio</a>
+          </li>
+          <li>
+              <a class="right" href="paguinas/ejemplo1.html" target="iframeContenido">Ejemplo 1</a>
+          </li>
+          <li>
+              <a class="right" href="paguinas/listaVideos.html" target="iframeContenido">Lista videos</a>
+          </li>
+          <li class="right">
+              <a class="right" href="paguinas/perfil.html" target="iframeContenido">Perfil</a>
+          </li>
+      </ul>
+  </nav>
+
+    <section class="idContenidoIndex">
+      <iframe src="paguinas/inicio.html" frameborder="0" name="iframeContenido" height="500px" width="90%" ></iframe>
+    </section>
+
+    <footer class="container">
+      <p>Aqui va el pie de pagina</p>
+    </footer>
+  </div>
+  <script src="regist_serviceWorker.js"></script>
+</body>
+</html>
